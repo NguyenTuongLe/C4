@@ -3,6 +3,7 @@ import java.io.*;
 import java.net.Socket;
 public class SSTCPEchoClient {
     public static int messageNo = 1; // Cổng mặc định
+    
 
     public static void main(String[] args) {
         try {
