@@ -28,6 +28,7 @@ public class SSTCPEchoClient {
             }
             System.out.println();
             System.out.println("Client ngat ket noi!");
+            
             s.close();
         } catch (IOException ie) {
             System.out.println("Loi: Khong tao duoc socket");
