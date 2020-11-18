@@ -31,7 +31,6 @@ public class SSTCPEchoClient {
             s.close();
         } catch (IOException ie) {
             System.out.println("Loi: Khong tao duoc socket");
-            
         }
     }
 }
